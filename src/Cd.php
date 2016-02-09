@@ -23,8 +23,40 @@
             }
         }
 
+        function getPrice()
+        {
+            return $this->price;
+        }
+
+        function setTitle($new_title)
+        {
+            $this->title = $new_title;
+        }
+
+        function getTitle ()
+        {
+            return $this->title;
+        }
+
+        function setArtist($new_artist)
+        {
+            $this->artist = $new_artist;
+        }
+
+        function getArtist()
+        {
+            return $this->artist;
+        }
+
+        function setCoverArt($new_cover_art)
+        {
+            $this->cover_art = $new_cover_art;
+        }
+
+        function getCoverArt()
+        {
+            return $this->cover_art;
+        }
     }
-
-
 
 ?>
